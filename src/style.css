@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+}
+
+header > h1 {
+    font-family: "Qwitcher Grypen", cursive;
+    font-size: 15vw;
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+    color: #ffffff;
+    
+}
+
+header > p {
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+header > p > a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+main {
+    background-color: whitesmoke;
+    margin: 0px;
+}
+
+
+
+section > p {
+    font-family: "Caveat", cursive;
+    font-size: 6vw;
+    padding: 50px;
+    
+}
+
+.arrw1 {
+    background-image: url(/img/arrow.png);
+    background-repeat: no-repeat;
+    background-size: 70vw;
+    background-position: bottom right;
+    display: block;
+
+}
+#img01 {
+    background-image: url(../img/background001.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: rgba(0, 0, 0, 0.911) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+.txt1 {
+    color: #ffffff;
+    text-align: end;
+}
+
+#img02 {
+    background-image: url(../img/background002.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: rgba(0, 0, 0, 0.911) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.txt2 {
+    color: #ffffff;
+    text-align: end;
+}
+
+footer {
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
