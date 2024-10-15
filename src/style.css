@@ -28,9 +28,14 @@ header > p {
     padding-bottom: 15px;
 }
 
-header > p > a {
+a {
     color: #ffffff;
     font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 main {
@@ -40,21 +45,13 @@ main {
 
 
 
-section > p {
+section > p{
     font-family: "Caveat", cursive;
-    font-size: 6vw;
-    padding: 50px;
+    font-size: 5vw;
+    padding: 3vh 4vh 7vh 2vh;
     
 }
 
-div.arrw1 {
-    background-image: url(/img/arrow.png);
-    background-repeat: no-repeat;
-    background-size: 70vw;
-    background-position: bottom right;
-    display: block;
-
-}
 #img01 {
     background-image: url(../img/background001.jpg);
     background-position: right center;
@@ -67,6 +64,7 @@ div.arrw1 {
 .txt1 {
     color: #ffffff;
     text-align: end;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.671)
 }
 
 #img02 {
@@ -81,6 +79,7 @@ div.arrw1 {
 .txt2 {
     color: #ffffff;
     text-align: end;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.671)
 }
 
 footer {
