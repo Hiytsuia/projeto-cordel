@@ -47,7 +47,7 @@ section > p {
     
 }
 
-.arrw1 {
+div.arrw1 {
     background-image: url(/img/arrow.png);
     background-repeat: no-repeat;
     background-size: 70vw;
